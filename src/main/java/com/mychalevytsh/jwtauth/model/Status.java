@@ -1,4 +1,5 @@
 package com.mychalevytsh.jwtauth.model;
 
-public class Status {
+public enum Status {
+    ACTIVE, NOT_ACTIVE, DELETED
 }
